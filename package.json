@@ -4,15 +4,16 @@
   "private": true,
   "scripts": {
     "vercel-build": "npm install --legacy-peer-deps && next build",
-  "build": "next build",
-  "dev": "next dev",
-  "start": "next start",
-  "lint": "next lint"
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
+    "lint": "next lint"
   },
   "prisma": {
     "seed": "tsx --require dotenv/config scripts/seed.ts"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.15.4",
     "@next/swc-wasm-nodejs": "13.5.1",
     "@types/node": "20.6.2",
     "@types/react": "18.2.22",
