@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "vercel-build": "npm install --legacy-peer-deps && next build"
+    "vercel-build": "npm install --legacy-peer-deps && next build",
+  "build": "next build",
+  "dev": "next dev",
+  "start": "next start",
+  "lint": "next lint"
   },
   "prisma": {
     "seed": "tsx --require dotenv/config scripts/seed.ts"
